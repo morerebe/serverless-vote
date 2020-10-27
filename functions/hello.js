@@ -2,8 +2,8 @@ let positionArray = [0, 0];
 
 exports.handler = async event => {
 
-    const lat =  event.queryStringParameters.lat
-    const lng =  event.queryStringParameters.lat
+    const lat =  event.queryStringParameters.lat;
+    const lng =  event.queryStringParameters.lat;
         positionArray[0] = lat;
         positionArray[1] = lng;
         
